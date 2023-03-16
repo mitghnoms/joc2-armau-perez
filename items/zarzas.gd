@@ -18,4 +18,4 @@ func _ready():
 
 func _on_zarzas_body_entered(body):
 	body.global_position = Vector2(680,1086)
-	get_tree().reload_current_scene()
+#	get_tree().reload_current_scene()

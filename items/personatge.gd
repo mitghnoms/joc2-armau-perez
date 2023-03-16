@@ -5,6 +5,7 @@ var moviment := Vector2.ZERO
 var gravetat := Vector2.DOWN *350
 var direccio = Vector2.ZERO
 var salt := 250
+var punts := 0
 
 
 
@@ -65,5 +66,7 @@ func _process(delta):
 	
 
 
-
-
+func _on_monedes_body_entered(body):
+	punts += 1
+	$CanvasLayer/PUNTS.text = "MONEDES: %d" % [punts]
+	

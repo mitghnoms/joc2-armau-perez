@@ -19,4 +19,4 @@ func _ready():
 
 
 func _on_detectorfinal_body_entered(body):
-	get_tree().reload_current_scene()
+	body.global_position = Vector2(680,1086)

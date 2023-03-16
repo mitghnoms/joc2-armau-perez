@@ -10,6 +10,90 @@ scroll_ignore_camera_zoom = true
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 
+[node name="Sprite68" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3655, 1356 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite69" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4322, 1356 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite70" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3836.78, 1249 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite71" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4503.78, 1249 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite72" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3606.78, 1150 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite73" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4273.78, 1150 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite74" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3788.57, 1043 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite75" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4455.57, 1043 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite76" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3587.78, 929.002 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite77" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4154.78, 929.002 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite78" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3669.57, 822.003 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite79" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4336.57, 822.003 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite80" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3701.78, 718.003 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
+[node name="Sprite81" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 4368.78, 718.003 )
+scale = Vector2( 1.51829, 2.11117 )
+texture = ExtResource( 2 )
+offset = Vector2( -220.642, -18.9468 )
+
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
 position = Vector2( 1650.5, 1260.31 )
 scale = Vector2( 1.59323, 2.11117 )
@@ -413,90 +497,6 @@ offset = Vector2( -220.642, -18.9468 )
 
 [node name="Sprite82" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
 position = Vector2( 3571.78, 619.001 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite68" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3655, 1356 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite69" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4322, 1356 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite70" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3836.78, 1249 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite71" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4503.78, 1249 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite72" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3606.78, 1150 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite73" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4273.78, 1150 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite74" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3788.57, 1043 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite75" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4455.57, 1043 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite76" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3587.78, 929.002 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite77" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4154.78, 929.002 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite78" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3669.57, 822.003 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite79" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4336.57, 822.003 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite80" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 3701.78, 718.003 )
-scale = Vector2( 1.51829, 2.11117 )
-texture = ExtResource( 2 )
-offset = Vector2( -220.642, -18.9468 )
-
-[node name="Sprite81" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 4368.78, 718.003 )
 scale = Vector2( 1.51829, 2.11117 )
 texture = ExtResource( 2 )
 offset = Vector2( -220.642, -18.9468 )
