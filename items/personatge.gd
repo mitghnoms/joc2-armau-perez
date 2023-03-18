@@ -65,8 +65,8 @@ func _process(delta):
 		
 	
 
-
 func _on_monedes_body_entered(body):
 	punts += 1
+	$moneda.playing = true
 	$CanvasLayer/PUNTS.text = "MONEDES: %d" % [punts]
 	

@@ -18,4 +18,4 @@ func _ready():
 
 
 func _on_Area2D_body_entered(body):
-	body.global_position = Vector2()
+	body.global_position = Vector2(12631,841)

@@ -95,7 +95,7 @@ texture = ExtResource( 2 )
 offset = Vector2( -220.642, -18.9468 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 1650.5, 1260.31 )
+position = Vector2( 1635, 1258 )
 scale = Vector2( 1.59323, 2.11117 )
 texture = ExtResource( 1 )
 

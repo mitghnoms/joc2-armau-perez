@@ -97,7 +97,7 @@ script = ExtResource( 2 )
 [node name="teleport" type="AnimatedSprite" parent="."]
 frames = SubResource( 22 )
 animation = "teleport"
-frame = 6
+frame = 12
 speed_scale = 2.0
 playing = true
 
