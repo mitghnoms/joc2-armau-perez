@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=2]
+[gd_scene load_steps=44 format=2]
 
 [ext_resource path="res://personatge.tscn" type="PackedScene" id=1]
 [ext_resource path="res://fons.tscn" type="PackedScene" id=2]
@@ -15,9 +15,13 @@
 [ext_resource path="res://zarzas.tscn" type="PackedScene" id=13]
 [ext_resource path="res://teleport.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Watch Your Steps - Loop.wav" type="AudioStream" id=15]
-[ext_resource path="res://fons3.tscn" type="PackedScene" id=16]
+[ext_resource path="res://BackdropMain.png" type="Texture" id=16]
 [ext_resource path="res://teleport2.png" type="Texture" id=17]
 [ext_resource path="res://blocsjetpackjoyride.tscn" type="PackedScene" id=18]
+[ext_resource path="res://reestartmisil1.tscn" type="PackedScene" id=19]
+[ext_resource path="res://missil1.tscn" type="PackedScene" id=20]
+[ext_resource path="res://reestartmisil2.tscn" type="PackedScene" id=21]
+[ext_resource path="res://tresor.tscn" type="PackedScene" id=22]
 
 [sub_resource type="AtlasTexture" id=1]
 flags = 4
@@ -148,9 +152,6 @@ position = Vector2( 2864, 284 )
 [node name="terre" parent="." instance=ExtResource( 3 )]
 position = Vector2( -480, 576 )
 
-[node name="terra" parent="." instance=ExtResource( 3 )]
-position = Vector2( 13399, 1893.5 )
-
 [node name="paret mobil" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2218, 1196 )
 
@@ -167,6 +168,7 @@ position = Vector2( 544, 509 )
 position = Vector2( 817, 599 )
 scale = Vector2( 4.47059, 0.55274 )
 frames = SubResource( 5 )
+frame = 2
 speed_scale = 1.5
 playing = true
 
@@ -252,27 +254,121 @@ position = Vector2( 2461, 604 )
 [node name="teleportt" parent="." instance=ExtResource( 14 )]
 position = Vector2( 2712, 548 )
 
-[node name="personatge" parent="." instance=ExtResource( 1 )]
-position = Vector2( 56, 312 )
+[node name="Sprite9" type="Sprite" parent="."]
+position = Vector2( 13886, 957 )
+texture = ExtResource( 16 )
+
+[node name="Sprite8" type="Sprite" parent="."]
+position = Vector2( 13084, 957 )
+texture = ExtResource( 16 )
+
+[node name="Sprite11" type="Sprite" parent="."]
+position = Vector2( 14689, 958 )
+texture = ExtResource( 16 )
 
 [node name="background sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 15 )
-volume_db = -20.646
+volume_db = -8.411
 autoplay = true
 
-[node name="fons3" parent="." instance=ExtResource( 16 )]
-
-[node name="limits3" parent="." instance=ExtResource( 8 )]
-position = Vector2( 12320, 1863.5 )
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 13152, 1027 )
+frames = SubResource( 21 )
+frame = 4
+playing = true
 
 [node name="blocsjetpackjoyride" parent="." instance=ExtResource( 18 )]
-position = Vector2( 12643, 882 )
+position = Vector2( 13151.5, 1066.5 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 12631, 841 )
-frames = SubResource( 21 )
-frame = 1
-playing = true
+[node name="Sprite10" type="Sprite" parent="."]
+position = Vector2( 15493.5, 958 )
+texture = ExtResource( 16 )
+
+[node name="Sprite12" type="Sprite" parent="."]
+position = Vector2( 16296.5, 958 )
+texture = ExtResource( 16 )
+
+[node name="Sprite13" type="Sprite" parent="."]
+position = Vector2( 17099.5, 959 )
+texture = ExtResource( 16 )
+
+[node name="Sprite14" type="Sprite" parent="."]
+position = Vector2( 17903.5, 959 )
+texture = ExtResource( 16 )
+
+[node name="Sprite15" type="Sprite" parent="."]
+position = Vector2( 18706.5, 959 )
+texture = ExtResource( 16 )
+
+[node name="Sprite16" type="Sprite" parent="."]
+position = Vector2( 19509.5, 960 )
+texture = ExtResource( 16 )
+
+[node name="Sprite17" type="Sprite" parent="."]
+position = Vector2( 20314, 960 )
+texture = ExtResource( 16 )
+
+[node name="Sprite18" type="Sprite" parent="."]
+position = Vector2( 21117, 960 )
+texture = ExtResource( 16 )
+
+[node name="Sprite19" type="Sprite" parent="."]
+position = Vector2( 21920, 961 )
+texture = ExtResource( 16 )
+
+[node name="Sprite20" type="Sprite" parent="."]
+position = Vector2( 12284, 957 )
+texture = ExtResource( 16 )
+
+[node name="terra2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 15722, 1433 )
+
+[node name="terra3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 17758, 1433 )
+
+[node name="terra4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 19794, 1433 )
+
+[node name="terra5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 21761, 1434 )
+
+[node name="reestartmisil1" parent="." instance=ExtResource( 19 )]
+position = Vector2( 12699, 1007 )
+
+[node name="limits3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 12586, 1392 )
+
+[node name="terra" parent="." instance=ExtResource( 3 )]
+position = Vector2( 13688, 1433 )
+
+[node name="personatge" parent="." instance=ExtResource( 1 )]
+position = Vector2( 37, 314 )
+
+[node name="missil1" parent="." instance=ExtResource( 20 )]
+position = Vector2( 14109, 1009 )
+
+[node name="reestartmisil2" parent="." instance=ExtResource( 21 )]
+
+[node name="missil2" parent="." instance=ExtResource( 20 )]
+position = Vector2( 14043, 1361 )
+
+[node name="missil3" parent="." instance=ExtResource( 20 )]
+position = Vector2( 15097, 1342 )
+
+[node name="missil4" parent="." instance=ExtResource( 20 )]
+position = Vector2( 15701, 1264 )
+
+[node name="missil5" parent="." instance=ExtResource( 20 )]
+position = Vector2( 16363, 1368 )
+
+[node name="missil6" parent="." instance=ExtResource( 20 )]
+position = Vector2( 16470, 1367 )
+
+[node name="missil7" parent="." instance=ExtResource( 20 )]
+position = Vector2( 17505, 1351 )
+
+[node name="tresor" parent="." instance=ExtResource( 22 )]
+position = Vector2( 20429, 1308 )
 
 [connection signal="body_entered" from="monedes" to="personatge" method="_on_monedes_body_entered"]
 [connection signal="body_entered" from="monedes2" to="personatge" method="_on_monedes_body_entered"]

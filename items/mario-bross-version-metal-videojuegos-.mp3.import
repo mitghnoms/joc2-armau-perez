@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mario-bross-version-metal-videojuegos-.mp3-2635fddbe152c80b7d27bacdd2148fcf.mp3str"
+
+[deps]
+
+source_file="res://mario-bross-version-metal-videojuegos-.mp3"
+dest_files=[ "res://.import/mario-bross-version-metal-videojuegos-.mp3-2635fddbe152c80b7d27bacdd2148fcf.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

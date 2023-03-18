@@ -16,6 +16,5 @@ func _ready():
 
 
 
-
-func _on_Area2D_body_entered(body):
-	body.global_position = Vector2(13152,1027)
+func _on_reestartmisil1_area_entered(area):
+	area.global_position = Vector2(14109,1009)

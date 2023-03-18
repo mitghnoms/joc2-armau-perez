@@ -1,0 +1,118 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://pngeggbo.png" type="Texture" id=1]
+[ext_resource path="res://Button.gd" type="Script" id=2]
+[ext_resource path="res://Fonts/Kenney Future Narrow.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://ringtones-super-mario-bros.mp3" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+extra_spacing_space = 4
+font_data = ExtResource( 3 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 108, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 216, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 324, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 432, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 540, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 648, 0, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 162, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 108, 162, 108, 162 )
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 216, 162, 108, 162 )
+
+[sub_resource type="SpriteFrames" id=12]
+animations = [ {
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="pantalla inici" type="Sprite"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -20.5
+margin_top = -15.5
+margin_right = 1032.5
+margin_bottom = 616.5
+color = Color( 0.945098, 0.447059, 0.917647, 1 )
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color( 0.321569, 0.984314, 1, 1 )
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 233.5
+margin_top = 269.0
+margin_right = 789.5
+margin_bottom = 476.0
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="Button"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -220.5
+margin_top = -17.5
+margin_right = 220.5
+margin_bottom = 17.5
+custom_fonts/font = SubResource( 1 )
+text = "CLICA AQUÍ PER COMENÇAR"
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 508, 209 )
+frames = SubResource( 12 )
+frame = 2
+playing = true
+
+[node name="soinici" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+autoplay = true
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]

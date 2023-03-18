@@ -119,7 +119,7 @@ stream = ExtResource( 4 )
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="PUNTS" type="Label" parent="CanvasLayer"]
-modulate = Color( 0.466667, 0.862745, 0.211765, 1 )
+modulate = Color( 0.862745, 0.211765, 0.211765, 1 )
 margin_left = 32.0
 margin_top = 22.0
 margin_right = 183.0

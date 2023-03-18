@@ -11,11 +11,10 @@ func _ready():
 	pass # Replace with function body.
 
 
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
 
 
-
-
-
-
-func _on_Area2D_body_entered(body):
-	body.global_position = Vector2(13152,1027)
+func _on_reestartmisil2_area_entered(area):
+	area.global_position = Vector2(21727,1363)

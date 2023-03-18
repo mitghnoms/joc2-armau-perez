@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ringtones-super-mario-bros.mp3-9affcea8521bdb41f1357545e9ae18fa.mp3str"
+
+[deps]
+
+source_file="res://ringtones-super-mario-bros.mp3"
+dest_files=[ "res://.import/ringtones-super-mario-bros.mp3-9affcea8521bdb41f1357545e9ae18fa.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
