@@ -168,7 +168,7 @@ position = Vector2( 544, 509 )
 position = Vector2( 817, 599 )
 scale = Vector2( 4.47059, 0.55274 )
 frames = SubResource( 5 )
-frame = 2
+frame = 1
 speed_scale = 1.5
 playing = true
 
@@ -274,7 +274,7 @@ autoplay = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 13152, 1027 )
 frames = SubResource( 21 )
-frame = 4
+frame = 3
 playing = true
 
 [node name="blocsjetpackjoyride" parent="." instance=ExtResource( 18 )]
