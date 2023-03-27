@@ -60,7 +60,11 @@ func _process(delta):
 		
 	if is_on_floor()== false:
 		$soundcorre.playing = false
-		
+
+	
+	
+	if Input.is_action_just_pressed("dispara"):
+		dispara()
 
 		
 	
@@ -69,4 +73,10 @@ func _on_monedes_body_entered(body):
 	punts += 1
 	$moneda.playing = true
 	$CanvasLayer/PUNTS.text = "MONEDES: %d" % [punts]
-	
+
+func dispara():
+	var escena_bala = preload("res://bala.tscn")
+	var nova_bala = escena_bala.instance()
+	nova_bala.global_position = $Position2D.global_position
+	nova_bala.direccio = global_position.direction_to(get_global_mouse_position())
+	Global.Bales.add_child(nova_bala)

@@ -108,7 +108,7 @@ text = "CLICA AQUÍ PER COMENÇAR"
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 508, 209 )
 frames = SubResource( 12 )
-frame = 9
+frame = 8
 playing = true
 
 [node name="soinici" type="AudioStreamPlayer2D" parent="."]

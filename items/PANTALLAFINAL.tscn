@@ -68,7 +68,6 @@ text = "CLICA AQUÍ PER TORNAR A JUGAR"
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 495, 310 )
 frames = SubResource( 5 )
-frame = 1
 playing = true
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

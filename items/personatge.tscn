@@ -130,3 +130,6 @@ valign = 1
 
 [node name="moneda" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 6 )
+
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 34, -6 )
